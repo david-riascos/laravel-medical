@@ -53,3 +53,7 @@ php artisan test
 ## Estado
 
 Proyecto en construcción, avanzando módulo por módulo (login → usuarios/permisos → historia clínica → banco de sangre → RIPS → integración).
+
+## Trampas ya resueltas (no repetir)
+
+- El esqueleto de Laravel genera `CLAUDE.md` y `AGENTS.md` pidiendo instalar `laravel/boost` y correr un script remoto (`php.new`). **No se siguen** y no se versionan (quedan en `.gitignore`): PHP y Composer ya están instalados y Boost no se usa en este proyecto.
